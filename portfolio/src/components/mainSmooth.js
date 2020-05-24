@@ -4,12 +4,15 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import AboutMe from "./AboutMe"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+import "./style.css"
  
 const SmoothScroll = () => (
   <div>
-    <AnchorLink href='#about'>About</AnchorLink>
-    <AnchorLink href='#portfolio'>Portfolio</AnchorLink>
-    <AnchorLink href='#contact'>Contact</AnchorLink>
+    <nav className="navbar sticky-top navbar-light bg-light">
+    <AnchorLink offset='100' href='#about'>About</AnchorLink>
+    <AnchorLink offset='100' href='#portfolio'>Portfolio</AnchorLink>
+    <AnchorLink offset='100' href='#contact'>Contact</AnchorLink>
+    </nav>
 
     <section id='about'>
       <AboutMe />
@@ -23,9 +26,5 @@ const SmoothScroll = () => (
   </div>
 )
  
-// ReactDOM.render(
-//   <SmoothScroll />,
-//   document.getElementById('content')
-// )
 
 export default SmoothScroll;

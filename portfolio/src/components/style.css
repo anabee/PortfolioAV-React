@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #333;
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7)!important
+}
+
+#about {
+    background-image: url(https://p0.piqsels.com/preview/700/873/256/gray-and-orange-clouds.jpg);
+    background-repeat: no-repeat;
+    background: linear-gradient(to top left, #ebebeb 49.8%, #fff 50%);
+}
+
+
+#portfolio {
+    background: linear-gradient(to top left, #fff 49.8%, #ebebeb 50%);
+
+}
+
+#contact {
+    background: linear-gradient(to top left, #ebebeb 49.8%, #fff 50%);
+
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+/* .about {
+    height: 100%!important;
+}
+
+.portfolio {
+    height: 100%!important;
+}
+
+.contact {
+    height: 100%!important;
+} */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-emphasis: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#portrait {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.portfolio-image {
+    background: transparent no-repeat center;
+    background-size: cover;
+    width: 260px!important;
+    border-radius: 50%;
+    
+}
+
+.forceimg {
+    height: 260px!important;
+}
+
+.forcecol {
+    text-align: center!important;
+    align-items: center!important;
+    justify-content: center!important;
+}

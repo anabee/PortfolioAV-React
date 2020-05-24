@@ -1,10 +1,10 @@
 import React from "react";
-import { render } from "react-dom";
+import "./style.css"
 
 
 function Portfolio() {
     return(
-        <div>
+        <div className="portfolio">
                     
         <div className="row">
             <div className="col">
