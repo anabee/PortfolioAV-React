@@ -11,6 +11,8 @@ body {
     height: 100vh;
 }
 
+/* NAVBAR */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -20,6 +22,30 @@ body {
     height: 60px;
     background: rgba(0, 0, 0, 0.7)!important
 }
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+    color: #cc652d;
+}
+
+/* Different "pages of the Portfolio */
 
 #about {
     background-image: url(https://p0.piqsels.com/preview/700/873/256/gray-and-orange-clouds.jpg);
@@ -63,6 +89,8 @@ section {
     height: 100vh;
 }
 
+/* IMAGES */
+
 #portrait {
     height: 200px;
     border-radius: 50%;
@@ -85,3 +113,4 @@ section {
     align-items: center!important;
     justify-content: center!important;
 }
+

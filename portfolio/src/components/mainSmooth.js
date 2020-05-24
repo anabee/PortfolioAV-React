@@ -9,9 +9,11 @@ import "./style.css"
 const SmoothScroll = () => (
   <div>
     <nav className="navbar sticky-top navbar-light bg-light">
-    <AnchorLink offset='100' href='#about'>About</AnchorLink>
-    <AnchorLink offset='100' href='#portfolio'>Portfolio</AnchorLink>
-    <AnchorLink offset='100' href='#contact'>Contact</AnchorLink>
+        <ul>
+            <li><AnchorLink offset='60' href='#about'>About</AnchorLink></li>
+            <li><AnchorLink offset='60' href='#portfolio'>Portfolio</AnchorLink></li>
+            <li><AnchorLink offset='60' href='#contact'>Contact</AnchorLink></li>
+        </ul>
     </nav>
 
     <section id='about'>
