@@ -135,6 +135,8 @@ section p {
     border-radius: 50%;
 }
 
+/* PORTFOLIO IMAGES AND OVERLAYS */
+
 .portfolio-image {
     background: transparent no-repeat center;
     background-size: cover;
@@ -151,6 +153,30 @@ section p {
     text-align: center!important;
     align-items: center!important;
     justify-content: center!important;
+}
+
+.overlay{
+    width: 300px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.forcecol:hover .overlay {
+    opacity: 1;
+}
+
+.text a {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333;
 }
 
 /* CONTACT BTN */
