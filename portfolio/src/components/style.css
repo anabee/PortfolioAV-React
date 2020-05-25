@@ -135,6 +135,10 @@ section p {
     border-radius: 50%;
 }
 
+.portrait:hover {
+    background-color: #cc652d;
+}
+
 /* PORTFOLIO IMAGES AND OVERLAYS */
 
 .portfolio-image {
