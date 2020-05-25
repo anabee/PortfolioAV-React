@@ -204,10 +204,19 @@ button:hover {
 footer {
     color: #ebebeb;
     padding:5px;
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
 }
 
 footer i {
     padding: 4px;
+    
 }
 
 footer a {

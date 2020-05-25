@@ -27,8 +27,7 @@ function Portfolio() {
                     </div>
                     </div>
                 </div>
-            </div>
-<br/>
+            <br/>
     
             <div className="row">
                 <div className="col forcecol">
@@ -38,9 +37,12 @@ function Portfolio() {
                         <a href="https://intense-earth-41726.herokuapp.com/">WeTrivia</a>
                     </div>
                 </div>
-    </div>
-    </div>
-    </div>
+                </div>
+                </div>
+                </div>
+
+
+        </div>
             
         </div>
     )

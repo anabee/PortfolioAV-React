@@ -26,6 +26,11 @@ function AboutMe() {
             <p>Hawthorne, CA</p>
             
             <img id="portrait" className="portrait" src="images/Me.jpeg"/>
+
+            {/* <br></br>
+            <br></br>
+            <br></br> */}
+            
         </div>
     )
 }
