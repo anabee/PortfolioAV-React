@@ -198,3 +198,22 @@ button:hover {
 .sentBtn {
   border-radius: 50%!important;
 }
+
+/* FOOTER */
+
+footer {
+    color: #ebebeb;
+    padding:5px;
+}
+
+footer i {
+    padding: 4px;
+}
+
+footer a {
+    color: #ebebeb;
+}
+
+footer a:hover {
+    color: #cc652d;
+}

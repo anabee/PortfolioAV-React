@@ -4,6 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import AboutMe from "./AboutMe"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+import Footer from "./Footer"
 import "./style.css"
  
 const SmoothScroll = () => (
@@ -25,6 +26,8 @@ const SmoothScroll = () => (
     <section id='contact'>
       <Contact />
     </section>
+
+    <Footer />
   </div>
 )
  
