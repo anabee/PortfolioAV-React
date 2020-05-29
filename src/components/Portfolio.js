@@ -69,7 +69,7 @@ function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col 1c forcecol">
-                            <img className="portfolio-image" src="./Images/weTrivia.jpeg" alt="trivia contestants"/>
+                            <img className="portfolio-image" src="./Images/weTrivia.png" alt="trivia contestants"/>
                             <div className="overlay">
                                 <div className="text">
                                     <button type="button" className="btn btn-info btn-lg modalBtn" data-toggle="modal" data-target="#weTriviaModal">WeTrivia</button>
