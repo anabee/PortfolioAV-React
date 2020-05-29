@@ -69,7 +69,7 @@ function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col 1c forcecol">
-                            <img className="portfolio-image" src="images/weTrivia.png" alt="trivia contestants"/>
+                            <img className="portfolio-image" src="./Images/weTrivia.jpeg" alt="trivia contestants"/>
                             <div className="overlay">
                                 <div className="text">
                                     <button type="button" className="btn btn-info btn-lg modalBtn" data-toggle="modal" data-target="#weTriviaModal">WeTrivia</button>
@@ -99,7 +99,7 @@ function Portfolio() {
                             </div>
                     </div>
                     <div className="col 1d forcecol">
-                        <img class="portfolio-image forceimg" src="images/UIMadeEasy.png" alt="out of work"/>
+                        <img class="portfolio-image forceimg" src="./Images/UIMadeEasy.png" alt="out of work"/>
                         <div class="overlay">
                             <div class="text">
                                     <button type="button" class="btn btn-info btn-lg modalBtn" data-toggle="modal" data-target="#madeeasyModal">Unemployment Made Easy</button>
