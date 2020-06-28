@@ -5,6 +5,9 @@ import "./style.css"
 function Contact() {
     return(
         <div className="contact">
+            <div>
+            <p>Email me at ana.valdivia112@gmail.com, or use the form below!</p>
+            </div>
             <form>
             <div className="contact">
                 <div className="input-group mb-3">
@@ -25,7 +28,7 @@ function Contact() {
                     </label>
                 </div>
                 
-                <button type="submit" className="btn btn-info buttonstyle" >Submit</button>
+                <button type="submit" className="btn btn-info buttonstyle">Submit</button>
             </div>
         </form>
         </div>

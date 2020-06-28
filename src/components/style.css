@@ -67,18 +67,6 @@ body {
     text-align: center;
 }
 
-/* .about {
-    height: 100%!important;
-}
-
-.portfolio {
-    height: 100%!important;
-}
-
-.contact {
-    height: 100%!important;
-} */
-
 /* ABOUT SECTION */
 
 section {
@@ -158,12 +146,6 @@ section p {
     padding: 5px!important;
 }
 
-/* .overlay{
-    width: 300px;
-    border-radius: 50%;
-    opacity: 0;
-    transition: .5s ease;
-} */
 
 .forcecol:hover .overlay {
     opacity: 1;
@@ -183,6 +165,11 @@ section p {
 }
 
 /* CONTACT BTN */
+
+form {
+    display: inline-block;
+    text-align: center;
+}
 
 button {
     background-color: #fff!important;
