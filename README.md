@@ -31,7 +31,7 @@ You will also see any lint errors in the console.
 
  Deployed Site: 
 
-https://git.heroku.com/immense-scrubland-01383.git
+https://immense-scrubland-01383.herokuapp.com/ 
 
  <img width="873" alt="Screen Shot 2020-05-24 at 10 52 48 PM" src="https://user-images.githubusercontent.com/42880531/82782480-4b1c4d00-9e11-11ea-9f15-24417449d2ff.png">
 <img width="981" alt="Screen Shot 2020-05-24 at 10 53 14 PM" src="https://user-images.githubusercontent.com/42880531/82782512-5a9b9600-9e11-11ea-897c-e7def38a2339.png">
