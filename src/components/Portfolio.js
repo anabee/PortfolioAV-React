@@ -39,28 +39,28 @@ function Portfolio() {
                             </div>
                     </div>
                     <div className="col 1b forcecol">
-                            <img className="portfolio-image forceimg" src="https://raw.githubusercontent.com/anabee/portfolio-valdivia/master/images/Schedule_proj.png" alt="rpg game icons"/>
-                            <div className="overlay">
-                                <div className="text">
-                                    <button type="button" className="btn btn-info btn-lg modalBtn" data-toggle="modal" data-target="#dailySchedModal">Daily Work Schedule</button>
+                            <img class="portfolio-image forceimg" src="./Images/codify.png" alt="hangman"/>
+                            <div class="overlay">
+                                <div class="text">
+                                        <button type="button" class="btn btn-info btn-lg modalBtn" data-toggle="modal" data-target="#codifyModal">Codify</button>
                                 </div>
                             </div>
 
-                            <div id="dailySchedModal" className="modal fade" role="dialog">
-                                <div className="modal-dialog">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h4 className="modal-title">Daily Schedule</h4>
+                            <div id="codifyModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                                <h4 class="modal-title">Codify</h4>
                                         </div>
-                                        <div className="modal-body">
-                                            <p>A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
-                                                            
-                                            <p>CSS Framework: Bootstrap</p>
-                                                
-                                            <p>Visit: <a href="https://anabee.github.io/DailyWorkSchedule/">Daily Schedule</a></p>
+                                        <div class="modal-body">
+                                            <p>Codify is a PWA created to organize and analyze the job application process for software developers. It provides a centralized location to save job post URLs, contact information, job offers, application status, and much more.</p>
+                                            
+                                            <p>Framework: React.js</p>
+                        
+                                            <p>Visit: <a href="https://codify-jobs.herokuapp.com/">Codify</a></p>
                                         </div>
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
